@@ -12,7 +12,6 @@ public class Activity01 extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_01);
-		TextView TextView1 = (TextView)findViewById(R.id.TextView1);
 		Button Button1 = (Button)findViewById(R.id.Button1);
 		TextView1.setText("My First TextView");
 		Button1.setText("My First Button");
